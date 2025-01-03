@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/evento"
+android:orientation="vertical"
+android:padding="16dp">
+
+<EditText
+    android:id="@+id/titleEditText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:hint="Título" />
+
+<EditText
+    android:id="@+id/descriptionEditText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:hint="Descripción" />
+
+
+
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/saveButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#F888DBC7"
+    android:layout_marginTop="150dp"
+    android:text="Guardar" />
+</LinearLayout>
